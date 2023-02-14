@@ -34,7 +34,3 @@ class Taxa {
         return $salario;
     }
 }
-
-
-$taxa = new Taxa();
-echo $taxa->calculaTaxa(4500);
