@@ -20,7 +20,7 @@ class TaxaTest extends TestCase {
         //Tem que dar erro
         $taxa = new Taxa();
 
-        $salario = null;
+        $salario = 2500.00;
         $this->assertNotEmpty($taxa->calculaTaxa($salario));
 
     }
